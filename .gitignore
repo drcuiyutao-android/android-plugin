@@ -1,0 +1,27 @@
+# Created by .ignore support plugin (hsz.mobi)
+/.idea
+/build
+/gen
+/bin
+/proguard
+/.classpath
+/.settings
+/lint.xml
+*.DS_Store
+/.gradle
+local.properties
+*.classpath
+*.project
+*.prefs
+*.class
+/app/src/main/bin
+*.apk
+/app/src/main/gen
+/app/src/main/lint.xml
+/projectFilesBackup
+*.iml
+/repo
+/captures
+android-plugin.ipr
+android-plugin.iws
+/out

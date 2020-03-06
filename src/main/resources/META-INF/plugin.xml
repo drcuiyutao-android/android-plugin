@@ -1,0 +1,28 @@
+<idea-plugin>
+    <id>com.drcuiyutao.android.plugin</id>
+    <name>Drcuiyutao Android</name>
+    <vendor email="developer@drcuiyutao.com" url="http://www.drcuiyutao.com">育学园</vendor>
+
+    <description><![CDATA[
+    description description description description</em>
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <codeInsight.lineMarkerProvider language="JAVA"
+                                        implementationClass="com.drcuiyutao.idea.plugin.insert.InsertLineMarkerProvider"/>
+    </extensions>
+
+    <actions>
+        <!--<group id="com.drcuiyutao.android.plugin.menu" text="Drcuiyutao" description="drcuiyutao menu">-->
+            <!--<add-to-group group-id="MainMenu" anchor="last"/>-->
+            <!--<action id="com.drcuiyutao.android.plugin.Insert"-->
+                    <!--class="com.drcuiyutao.idea.plugin.action.InsertAction" text="Insert" description="Insert"/>-->
+        <!--</group>-->
+    </actions>
+</idea-plugin>
